@@ -6,21 +6,24 @@
     flex-direction: row;
     justify-content: end;
     font-size: 1rem;
-    color: white;
   }
 
  .navbar__list{
     display: flex;
     flex-direction: row;
-    
  }
 
 .navbar__list--item{
   padding: 10px;
-  list-style-type: none;       
+  list-style-type: none;     
 }
 
+
 .navbar__list--item:hover {
+  background-color: orangered;
+  border-radius: 5px 5px 5px 5px;
+
+
   -webkit-animation: shake-bottom 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
 	        animation: shake-bottom 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
           
@@ -96,5 +99,9 @@
  .navbar__list--link{
   text-decoration: none;
   color: white;
+ }
+
+ .navbar__list--link:hover{
+  color: black;
  }
 
